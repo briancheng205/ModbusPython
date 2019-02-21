@@ -1,8 +1,3 @@
-'''
-Created on 12.09.2016
-
-@author: Stefan Rossmann
-'''
 #import serial
 import importlib
 import Exceptions
@@ -24,7 +19,7 @@ class ModbusClient(object):
         First Parameter is the serial Port 
         
         Constructor for Modbus TCP:
-        modbusClient = ModbusClient.ModbusClient('127.0.0.1', 502)
+        modbusClient = ModbusClient.ModbusClient('192.168.0.240', 502)
         First Parameter ist the IP-Address of the Server to connect to
         Second Parameter is the Port the Server listens to
         """

@@ -1,9 +1,3 @@
-'''
-Created on 14.09.2016
-
-@author: Stefan Rossmann
-'''
-
 class ModbusException(Exception):
     '''
     classdocs
